@@ -10,6 +10,8 @@ categories: cpp
 * content
 {:toc}
 
+原文地址:[http://codefalling.github.io/2015/01/15/static-assert-in-cpp/](http://codefalling.github.io/2015/01/15/static-assert-in-cpp/)
+
 # 断言
 
 断言（assert）是c语言标准库（`assert.h`）中一个使用的 *宏* ，作为一种先验条件判断程序是否如预期执行，断言在判断失败时 *立即结束程序并返回错误地点* ，其作用是 **让错误尽可能早的暴露** 。C标准库的 `assert` 是在运行时进行的，事实上大多断言也的确应该在运行时进行以保证运行如期望的那样进行。
