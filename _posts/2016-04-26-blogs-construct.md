@@ -22,12 +22,10 @@ categories: 公告
 
 0. 博客站公告
 1. 编程导论
-2. C++
+2. 编程语言
 3. Linux
 4. ACM
 5. 软件导论
-6. python
-7. java
 8. web开发
 9. 安卓开发
 10. 游戏开发
@@ -37,5 +35,5 @@ categories: 公告
 每个目录底下置顶xxx（目录名）学习之路的文章
 
 
-##投稿
+## 投稿
 见http://coderunion.github.io/2015/04/26/how-to-submit/
