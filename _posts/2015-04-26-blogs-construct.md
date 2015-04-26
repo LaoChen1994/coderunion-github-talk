@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "博客站架构"
-date: 2100-04-26 10:07:00
+date: 2015-04-26 10:07:00
+sticky: true
 tag: 
 - CoderUnion
 categories: 公告

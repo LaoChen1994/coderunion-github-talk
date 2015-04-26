@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "投稿须知"
+sticky: true
 date: 2015-04-26 10:07:00
 tag: 
 - CoderUnion
