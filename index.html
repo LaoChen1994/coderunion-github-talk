@@ -17,6 +17,15 @@ layout: default
           {% for post in site.posts %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
               <h2>
+              {{ post.title }}[置顶]
+              </h2>
+              <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </a>
+          {% endfor %}
+
+          {% for post in site.posts %}
+            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+              <h2>
               {{ post.title }}
               </h2>
               <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
