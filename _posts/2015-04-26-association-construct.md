@@ -49,7 +49,7 @@ categories: 公告
 		- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者	
 
 	- 校外：
-		- 翟乃鹏：09级计科，中科大研究生，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
+		- 翟乃鹏：09级计科，中科院计算所，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
 
 ## 执行委员
 - 职能：
