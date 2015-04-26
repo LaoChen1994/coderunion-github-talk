@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "协会架构"
-date: 2015-04-26 10:07:00
+date: 2200-04-26 10:07:00
 tag: 
 - CoderUnion
 categories: 公告
@@ -12,7 +12,7 @@ categories: 公告
 
 # 协会架构
 >这是我对如何改变江大编程氛围的想法，写到知乎上了，大神们提提意见
-http://www.zhihu.com/question/29280784/answer/45789986
+>http://www.zhihu.com/question/29280784/answer/45789986
 
 
 ## 基本设想
@@ -48,15 +48,13 @@ http://www.zhihu.com/question/29280784/answer/45789986
 		- 张鸿博：12级计科，Web坑中的程序猿。
 		
 		- 胡俊毅：
-		- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者
-		
-		
+		- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者	
 
 	- 校外：
 		- 翟乃鹏： 邮箱：zhainaipeng@gmail.com
 
 ## 执行委员
-- 分工：
+- 职能：
 	1. 维护博客站
 	2. 组织线下活动
 	3. 运行协会
