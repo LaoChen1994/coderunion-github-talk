@@ -52,9 +52,11 @@ categories: 公告
 		- 佘锦鑫
 	- 线上负责人
 		- 徐宗迪
+		- 郭羽
 	- 线下负责人
 		- 彭杰夫
 		- 张灿阳
+		- 郭羽
 
 ## 技术委员
 - 职能
@@ -68,8 +70,11 @@ categories: 公告
 		- 王雪瑞（气体 @xen0n）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android
 		- 佘锦鑫（蛇神）：13级信计，linux重度用户，web后端，安卓，c++爱好者
 		- 朱维扬：11级计科，擅长web、android、qt，浙大保研。
+
+		
 	- 校外：
 		- 翟乃鹏：09级计科，中科院计算所，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
+		- 江国荐：阿里coder，代码优化、深度学习与大数据处理、hadoop，邮箱：jianggj@mail.ustc.edu.cn
 		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net，大众点评coder。
 
 ## 博主
