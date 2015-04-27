@@ -15,7 +15,7 @@ permalink: /:year/:month/:day/:title/
 
 # Build settings
 
-markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
+#markdown: redcarpet  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
   input:         GFM
 
