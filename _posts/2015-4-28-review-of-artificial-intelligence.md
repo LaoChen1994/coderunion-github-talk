@@ -2,7 +2,7 @@
 layout: post
 title: "人工智能综述：让机器像人类一样思考[转载]"
 date: 2015-04-28 15:55
-sticky: true
+sticky: false
 tag: 
 - 人工智能
 categories: 人工智能
