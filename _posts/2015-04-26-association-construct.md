@@ -73,7 +73,7 @@ categories: 公告
 	- 校外：
 		- 翟乃鹏：09级计科，中科院计算所，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
 		- 江国荐：阿里coder，代码优化、深度学习与大数据处理、hadoop，邮箱：jianggj@mail.ustc.edu.cn
-		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net，大众点评coder。
+		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net、python，大众点评coder,邮箱：kevin.zhu@dianping.com。
 
 ## 博主
 - 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者
