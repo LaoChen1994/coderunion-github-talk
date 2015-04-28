@@ -39,6 +39,8 @@ categories: 公告
 
 # 投稿的流程
 
+## 注意：如果没有时间注册或使用Github走完流程的文章，也可以直接发邮件给simplyyu@163.com，附上文章的地址，由管理员弯成后面的步骤。
+
 ## Step 1：开Issue
 
 到我们的[Issues](https://github.com/CoderUnion/coderunion.github.io/issues)开一个Issues，附上文章地址。
