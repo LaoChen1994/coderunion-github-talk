@@ -18,7 +18,7 @@ permalink: /:year/:month/:day/:title/
 #markdown: redcarpet  # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
   input:         GFM
-
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 # highlight
 # 本地用rouge, github上用pygments
 highlighter: pygments
