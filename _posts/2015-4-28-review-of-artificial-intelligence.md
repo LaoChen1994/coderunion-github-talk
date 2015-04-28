@@ -5,7 +5,7 @@ date: 2015-04-28 15:55
 sticky: false
 tag: 
 - 人工智能
-categories: 人工智能
+categories: 机器学习
 ---
 
 * content
