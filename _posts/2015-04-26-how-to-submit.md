@@ -66,17 +66,25 @@ categories: 公告
 
 ## Step 2：等待管理员处理Issue
 
-管理员给Issue打上相应的label，然后审核原文是否达到要求，并说明理由。达到要求后Pass（同时打上`Pass` label），并由管理员告知需要使用的文件头（`Jekyll`使用）。
+管理员给Issue打上相应的label，然后审核原文是否达到要求，并说明理由。
+
+达到要求后Pass（同时打上`Pass` label），并由管理员告知需要使用的文件头（`Jekyll`使用）。
 
 ![issue pass](http://i1.tietuku.com/dd1d9acb09360773.png)
 
 ## Step 3：新建文件，开Pull&Requests
 
-前往[_posts](https://github.com/CoderUnion/coderunion.github.io/tree/master/_posts)直接**新建文件**，选择**create pull requests**
+1. 新建文件：
 
-按照要求填好内容后，点击`Propose new file`.(注意文件名用固定格式日期-名称.md，例如`2015-4-26-static-assert-in-c-cpp.md`)
+	前往[_posts](https://github.com/CoderUnion/coderunion.github.io/tree/master/_posts)直接**新建文件**（点击_posts旁的+号），
 
-在RP中引用之前开的Issue，并递交。
+	按照要求填好内容后，点击`Propose new file`.(注意文件名用固定格式日期-名称.md，例如`2015-4-26-static-assert-in-c-cpp.md`)
+
+2. 开Pull&Requests：
+
+	选择**create pull requests**
+
+	在RP中引用之前开的Issue，并递交。
 
 ![new file](http://i2.tietuku.com/34018e60d98e8d39.png)
 
@@ -101,6 +109,7 @@ categories: 公告
 没必要让他们去排版拿来结果又不能过
 
 - 第三、第四步的原因：
+
 	> 对于报社投稿，常常有“审稿-修-审稿-修”的过程，因为稿件不一定符合要求，排版、格式等。而第三和第四步是可以多次进行的，也就是“审稿-修-审稿-修”的过程。对于我们就是需要投稿者把稿件的格式改好，使得稿件能美观的显示。
 	
 # 注
