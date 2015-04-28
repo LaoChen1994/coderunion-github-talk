@@ -67,9 +67,8 @@ categories: 公告
 	注： 并不需要一人身兼数职，完全自愿，审核投稿只需审核自己感兴趣的相关方面即可。
 - 成员：（排名不分先后）
 	- 校内：
-		- 王雪瑞（气体 @xen0n）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android
-		- 佘锦鑫（蛇神）：13级信计，linux重度用户，web后端，安卓，c++爱好者
-		- 朱维扬：11级计科，擅长web、android、qt，浙大保研。
+		- 王雪瑞（气体 [@xen0n](https://github.com/xen0n)）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android
+		- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
 
 		
 	- 校外：
