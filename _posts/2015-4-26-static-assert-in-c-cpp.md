@@ -4,7 +4,7 @@ title: "C/C++中的静态断言"
 date: 2015-04-26 10:50:00
 tag: 
 - cpp
-categories: cpp
+categories: 编程语言
 ---
 
 * content
