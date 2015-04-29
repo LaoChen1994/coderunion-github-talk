@@ -67,8 +67,9 @@ categories: 公告
 	注： 并不需要一人身兼数职，完全自愿，审核投稿只需审核自己感兴趣的相关方面即可。
 - 成员：（排名不分先后）
 	- 校内：
-		- 王雪瑞（气体 [@xen0n](https://github.com/xen0n)）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android
+		- 王雪瑞（气体 [@xen0n](https://github.com/xen0n)）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android 
 		- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
+		- 蒋敏 物联网工程学院 博士 副教授 研究方向：机器视觉 目标识别与跟踪 人体行为识别 邮箱：minjiang@jiangnan.edu.cn
 		
 	- 校外：
 		- 翟乃鹏：09级计科，中科院计算所，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
@@ -80,7 +81,9 @@ categories: 公告
 - 佘锦鑫
 
 ## 编程爱好者
+只要你是江大编程爱好者，你均属于此类，这里有相关领域深入研究着坐镇爱好者群~
 
+[编程爱好者公告](http://coderunion.github.io/2015/04/26/code-lover/)
 
 
 ## 纳新
