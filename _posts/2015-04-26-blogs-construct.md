@@ -5,8 +5,7 @@ date: 2015-04-26 10:07:00
 sticky: true
 tag: 
 - CoderUnion
-categories: [公告, 编程导论, 编程语言,  ACM, Linux, win,
-osx,   web开发,  安卓开发, 游戏开发, 机器学习]
+categories: [公告, 编程导论, 编程语言,  ACM, 开源项目, web开发, 安卓开发, 游戏开发, Linux开发, win开发, osx开发,  机器学习]
 ---
 
 * content
@@ -26,6 +25,7 @@ osx,   web开发,  安卓开发, 游戏开发, 机器学习]
 0. 博客站公告
 1. 编程导论
 2. 编程语言
+3. 开源项目
 3. win
 4. osx
 3. Linux

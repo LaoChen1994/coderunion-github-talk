@@ -6,9 +6,9 @@ tag:
 - cpp
 categories: 编程语言
 ---
-
 * content
 {:toc}
+
 
 原文地址:[http://codefalling.github.io/2015/01/15/static-assert-in-cpp/](http://codefalling.github.io/2015/01/15/static-assert-in-cpp/)
 
