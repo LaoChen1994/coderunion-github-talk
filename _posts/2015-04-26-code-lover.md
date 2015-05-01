@@ -2,7 +2,6 @@
 layout: post
 title: "编程爱好者"
 date: 2015-04-26 10:07:00
-sticky: true
 tag: 
 - CoderUnion
 categories: 公告
