@@ -14,6 +14,7 @@ categories: 公告
 # 协会架构
 
 - 学编程最有趣的事情之一，就是碰到志同道合的伙伴嘛，我们提供一个平台，然后小伙伴们在江大就很容易聚起来了~
+- 总的来说要做到，知识的积累、分享、展示。
 
 ## 基本设想
 - 协会的基本原则
@@ -27,9 +28,10 @@ categories: 公告
 - 协会的实际形式
 	- 线上。
 		- 博客站（很重要，势必要成为江大热爱编程的人必上的地方，用github投稿制）。
+			
 		- 各种领域的编程爱好者群（参与见下面）
 	- 线下
-		- 定期线下技术委员开讲座，对外开放。大会种类可以有很多。
+		- 定期线下技术委员开讲座，对外开放。活动种类可以有很多。
 			1. 引路：比如讲授或讨论作为一名想要成为厉害的程序员的人大学（或者大一该养成是么习惯）应该怎么学。
 			2. 技术的介绍：比如对git的介绍
 			3. 开发者交流大会：比如自己开发的软件的show time。
@@ -44,16 +46,16 @@ categories: 公告
 - 职能：
 	1. 维护博客站
 	2. 组织线下活动
-	3. 运行协会
+	3. 运营协会
 - 成员：
 （有兴趣、有能力的欢迎参与）
-	- 总负责人（线下线上都得负责）
+	- 总负责人（职能1，2，3）
 		- 余伟
 		- 佘锦鑫
-	- 线上负责人
+	- 线上负责人（职能1，3）
 		- 徐宗迪
 		- 郭羽
-	- 线下负责人
+	- 线下负责人（职能2，3）
 		- 彭杰夫
 		- 张灿阳
 		- 郭羽
@@ -76,12 +78,12 @@ categories: 公告
 		- 江国荐：阿里coder，代码优化、深度学习与大数据处理、hadoop，邮箱：jianggj@mail.ustc.edu.cn
 		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net、python，大众点评coder,邮箱：kevin.zhu@dianping.com。
 
-## 博主
-- 郑杰：江大09级信息安全，浙大计算机。 Web开发、分布式系统，关注机器学习。
-- reverland[@reverland](https://github.com/reverland) ：江大09光科，北邮研究生，脚本小子,博客：http://reverland.org。
-- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者
-- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
-- 余伟[@SimplyY](https://github.com/SimplyY)：13级计科，Mac重度用户，Java，安卓。博客站:http://simplyy.github.io
+- 博主
+	- 郑杰：江大09级信息安全，浙大计算机。 Web开发、分布式系统，关注机器学习。
+	- reverland[@reverland](https://github.com/reverland) ：江大09光科，北邮研究生，脚本小子,博客：http://reverland.org。
+	- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
+	- 余伟[@SimplyY](https://github.com/SimplyY)：13级计科，Mac重度用户，Java，安卓。博客:http://simplyy.github.io
+	- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者：博客 blog.semprathlon.net
 
 ## 编程爱好者
 只要你是江大编程爱好者，你均属于此类，这里有相关领域深入研究着坐镇爱好者群~
