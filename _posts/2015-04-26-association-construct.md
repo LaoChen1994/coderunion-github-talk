@@ -77,9 +77,11 @@ categories: 公告
 		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net、python，大众点评coder,邮箱：kevin.zhu@dianping.com。
 
 ## 博主
+- 郑杰：江大09级信息安全，浙大计算机。 Web开发、分布式系统，关注机器学习。
+- reverland[@reverland](https://github.com/reverland) ：江大09光科，北邮研究生，脚本小子,博客：http://reverland.org。
 - 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者
-- 佘锦鑫
-- 余伟
+- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
+- 余伟[@SimplyY](https://github.com/SimplyY)：13级计科，Mac重度用户，Java，安卓。博客站:http://simplyy.github.io
 
 ## 编程爱好者
 只要你是江大编程爱好者，你均属于此类，这里有相关领域深入研究着坐镇爱好者群~
