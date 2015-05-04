@@ -4,7 +4,7 @@ title: "图像识别技术"
 date: 2015-04-24 15:55
 sticky: false
 tag: 
-- 人工智能
+- 图像识别
 categories: 机器学习
 ---
 
