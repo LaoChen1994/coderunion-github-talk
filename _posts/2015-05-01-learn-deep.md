@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "深入学习"
-date: 2015-04-21 10:07:00
+date: 2015-05-01 10:07:00
 tag: 
 - SimplyY
 categories: 编程导论
