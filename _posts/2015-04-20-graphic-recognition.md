@@ -39,7 +39,7 @@ P. Pérez, M. Gangnet, A. Blake. Poisson image editing. ACM Transactions on Grap
      
     
 [http://news.bingodu.com/2015/05/02/nh/679292.html?cid=46&nid=53333&share=1&fuid=266960](http://news.bingodu.com/2015/05/02/nh/679292.html?cid=46&nid=53333&share=1&fuid=266960)
-     ![](http://ww2.sinaimg.cn/large/0060jr72gw1erqz06mltxj30hs0hs77f.jpg)
+![](http://ww2.sinaimg.cn/large/0060jr72gw1erqz06mltxj30hs0hs77f.jpg)
 ![](http://ww2.sinaimg.cn/large/0060jr72gw1erqz07ji04j30hs0hsq5g.jpg)
 ![](http://ww1.sinaimg.cn/large/0060jr72gw1erqz088va3j30hs0hsaaq.jpg)
 

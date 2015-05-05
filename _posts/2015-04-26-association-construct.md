@@ -68,20 +68,21 @@ categories: 公告
 	3. 讲座
 	
 	注： 并不需要一人身兼数职，完全自愿，审核投稿只需审核自己感兴趣的相关方面即可。
-- 成员：（排名不分先后）
+- 成员：（排名不分先后）/Users/yuwei/Desktop/coderunion.github.io/_posts/2015-04-26-association-construct.md
 	- 校内：
 		- 王雪瑞（气体 [@xen0n](https://github.com/xen0n)）：10级数媒，Linux用户, Pythoneer, Web 后端/前端/运维, Android 
 		- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
 		- 蒋敏 物联网工程学院 博士 副教授 研究方向：机器视觉 目标识别与跟踪 人体行为识别 邮箱：minjiang@jiangnan.edu.cn
 		
 	- 校外：
+		- 李虎：江大05级信息安全，前北漂，现无锡某公司软件研发部经理，写得了代码，玩得了架构，做得了管理，业余爱好折腾些产品,安卓、ios，非正规军，都是些野路子。邮箱：lihu@outlook.com  github账号：jnhoodlum@163.com
 		- 翟乃鹏：09级计科，中科院计算所，体系结构、操作系统研究者 邮箱：zhainaipeng@gmail.com
 		- 江国荐：阿里coder，代码优化、深度学习与大数据处理、hadoop，邮箱：jianggj@mail.ustc.edu.cn
 		- 朱凯：10级计科，Mac重度用户，写过web、安卓、.net、python，大众点评coder,邮箱：kevin.zhu@dianping.com。
 
 - 博主
-	- 郑杰：江大09级信息安全，浙大计算机。 Web开发、分布式系统，关注机器学习。
-	- reverland[@reverland](https://github.com/reverland) ：江大09光科，北邮研究生，脚本小子,博客：http://reverland.org。
+	- 郑杰[@NaturalL](https://github.com/NaturalL)：江大09级信息安全，浙大计算机。 Web开发、分布式系统，关注机器学习。
+	- reverland[@reverland](https://github.com/reverland) ：江大09光科，北邮研究生，脚本小子,博客：http://reverland.org（大牛博客推荐去围观）。
 	- 佘锦鑫（[@codefalling](https://github.com/CodeFalling)）：13级信计，linux用户，Python，安卓，c++爱好者
 	- 余伟[@SimplyY](https://github.com/SimplyY)：13级计科，Mac重度用户，Java，安卓。博客:http://simplyy.github.io
 	- 徐宗迪：14级计科，ACM坑里的狂码者，iOS/android，板绘爱好者：博客 blog.semprathlon.net

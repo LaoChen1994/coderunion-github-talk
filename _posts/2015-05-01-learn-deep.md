@@ -8,6 +8,8 @@ categories: 编程导论
 ---
 
 # 深入学习
+[SimplyY著](http://simplyy.github.io/pages/about.html)
+
 ![](http://i2.tietuku.com/796a8ca7214160e1.png)
 
 - 附：博客链接
