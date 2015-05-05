@@ -11,7 +11,7 @@ categories: [公告, 编程导论, 编程语言,  ACM, 开源项目, web开发, 
 * content
 {:toc}
 
-# 博客站架构
+
 [SimplyY著](http://simplyy.github.io/pages/about.html)
 
 - 学编程最有趣的事情之一，就是碰到志同道合的伙伴嘛，我们提供一个平台，然后小伙伴们在江大就很容易聚起来了~
