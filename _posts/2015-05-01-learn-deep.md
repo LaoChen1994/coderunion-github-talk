@@ -12,7 +12,7 @@ categories: 编程导论
 
 [SimplyY著](http://simplyy.github.io/pages/about.html)
 
-![](http://i2.tietuku.com/796a8ca7214160e1.png)
+![](http://i1.tietuku.com/a7d3a078cb3e821f.png)
 
 - 附：博客链接
 	- [cleancode笔记](http://simplyy.github.io/2014/07/27/cleancode-0/
