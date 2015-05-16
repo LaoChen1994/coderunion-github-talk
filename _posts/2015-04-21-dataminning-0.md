@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "【通俗易懂】图解数据挖掘是“神马”（转）"
-date: 2015-04-26 10:07:00
-sticky: true
+date: 2015-05-16 10:07:00
+sticky: false
 tag: 
 - CoderUnion
 categories: 机器学习
