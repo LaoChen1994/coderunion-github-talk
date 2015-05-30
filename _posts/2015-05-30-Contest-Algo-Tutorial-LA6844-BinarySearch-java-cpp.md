@@ -1,3 +1,16 @@
+﻿---
+layout: post
+title: "一波三折而又苦尽甘来的数学题上的二分查找的算法竞赛应用"
+date: 2015-05-30 17:00:00
+tag: 
+- ACM-ICPC
+- semprathlon
+categories: acm
+---
+
+* content
+{:toc}
+
 <embed width="100%" height="600" name="plugin" src="https://icpcarchive.ecs.baylor.edu/external/68/6844.pdf" type="application/pdf" internalinstanceid="9"/>  
 [原题页面 ACM-ICPC Live Archive Regionals 2014 >> Asia - Bangkok 6844 - Combination](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=637&page=show_problem&problem=4856)   
 ====
