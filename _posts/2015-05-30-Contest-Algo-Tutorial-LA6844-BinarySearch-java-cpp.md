@@ -11,9 +11,10 @@ categories: acm
 * content
 {:toc}
 
+ACM-ICPC Live Archive Regionals 2014 >> Asia - Bangkok 6844 - Combination
+===
 <embed width="100%" height="600" name="plugin" src="https://icpcarchive.ecs.baylor.edu/external/68/6844.pdf" type="application/pdf" internalinstanceid="9"/>  
-[原题页面 ACM-ICPC Live Archive Regionals 2014 >> Asia - Bangkok 6844 - Combination](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=637&page=show_problem&problem=4856)   
-====
+[原题页面](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=637&page=show_problem&problem=4856)   
 [PDF题面](https://icpcarchive.ecs.baylor.edu/external/68/6844.pdf)   
 [Vjudge提交地址](http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=79610)   
 
@@ -53,10 +54,10 @@ $ a_2=2 $
 $ a_3=a_2+2 * {a_2}=3 * {a_2}=6 $  
 ...  
 $ a_n=a_{n-1}+2 * {a_{n-1}}=3 * {a_{n-1}}(n\geq 3) $（递推公式）  
-$ \begin{equation} a_n= \begin{cases} 1 &\mbox{$n=1$}\newline 2 &\mbox{$n=2$}\newline 2 * 3^{n-2} &\mbox{$n\geq 3$} \end{cases} \end{equation}（通项公式） $  
-$ 
+$$ \begin{equation} a_n= \begin{cases} 1 &\mbox{$n=1$}\newline 2 &\mbox{$n=2$}\newline 2 * 3^{n-2} &\mbox{$n\geq 3$} \end{cases} \end{equation}（通项公式） $$  
+$$ 
 \begin{equation} S_n=\sum\limits_{i=1}^{n} {a_i}= \begin{cases} 1 &\mbox{$n=1$}\newline 3 &\mbox{$n=2$}\newline 3+6 * \frac{1-3^{n-2}}{1-3}=3+3 * {(3^{n-2}-1)}=3^{n-1} &\mbox{$n\geq 3$} \end{cases} \end{equation}（a_n的前n项和的公式）  
-$  
+$$  
 化简后上面这个公式样子够好看了吧？ 
 
 
@@ -74,8 +75,9 @@ step5
 > PS:写完代码后，用极大的n值测试一下，事实上$ \sum\limits_{k=1}^{n} {f(k)} $已经超出了int64的范围。其他的细节不必多说了。
 
 Java:
+
 ```
-/**
+/*
  * @date 2015-05-30
  * @author Semprathlon
  */
@@ -130,6 +132,7 @@ public class Main {
 ```
 
 0.279s AC cpp代码：  
+
 ```
 #include<cmath>
 #include<cstdio>
