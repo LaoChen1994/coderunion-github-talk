@@ -13,7 +13,7 @@ categories: acm
 
 *ACM-ICPC Live Archive Regionals 2014 >> Asia - Bangkok*
 6844 - Combination
-===
+=====
 <embed width="100%" height="600" name="plugin" src="https://icpcarchive.ecs.baylor.edu/external/68/6844.pdf" type="application/pdf" internalinstanceid="9"/>
    
 [原题页面](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=637&page=show_problem&problem=4856)   
@@ -24,7 +24,7 @@ categories: acm
  
 * 设 $$ {f(n)=C_{n}^{r}(n∈N^{ * },r∈[0,n])} $$ 中 奇数的个数。  
 * 题意是说，求出 $$  \sum f(k),k∈[low,high] $$   
-* 庞大的数据，$$ n≤16 * {10^{11}}.  $$   
+* 庞大的数据，$$ n≤16 \times {10^{11}}.  $$   
 
 step1 
 ----
@@ -53,12 +53,15 @@ step3
 出于数列直觉，我们尝试求解各行的和构成的数列的递推以及通项。  
 $$ a_1=1 $$  
 $$ a_2=2 $$  
-$$ a_3=a_2+2 * {a_2}=3 * {a_2}=6 $$  
+$$ a_3=a_2+2 \times {a_2}=3 \times {a_2}=6 $$  
 ...  
-$$ a_n=a_{n-1}+2 * {a_{n-1}}=3 * {a_{n-1}}(n\geq 3) $$（递推公式）  
-$$ \begin{equation} a_n= \begin{cases} 1 &\mbox{$n=1$}\newline 2 &\mbox{$n=2$}\newline 2 * 3^{n-2} &\mbox{$n\geq 3$} \end{cases} \end{equation}（通项公式） $$  
+$$ a_n=a_{n-1}+2 \times {a_{n-1}}=3 \times {a_{n-1}}(n\geq 3) $$（递推公式）  
+$$ \begin{equation} a_n= \begin{cases} 1 &\mbox{$n=1$}\newline 2 &\mbox{$n=2$}\newline 2 \times 3^{n-2} &\mbox{$n\geq 3$} \end{cases} \end{equation}（通项公式） $$  
 $$ 
-\begin{equation} S_n=\sum\limits_{i=1}^{n} {a_i}= \begin{cases} 1 &\mbox{$n=1$}\newline 3 &\mbox{$n=2$}\newline 3+6 * \frac{1-3^{n-2}}{1-3}=3+3 * {(3^{n-2}-1)}=3^{n-1} &\mbox{$n\geq 3$} \end{cases} \end{equation}（a_n的前n项和的公式）  
+\begin{equation} S_n=\sum\limits_{i=1}^{n} {a_i}= \begin{cases} 1 &\mbox{$n=1$}\newline 3 &\mbox{$n=2$}\newline 3+6 \times \frac{1-3^{n-2}}{1-3}=3+3 \times {(3^{n-2}-1)}=3^{n-1} &\mbox{$n\geq 3$} \end{cases} \end{equation} 
+$$  
+$$ 
+S_n=3^{n-1}（a_n的前n项和的公式）  
 $$  
 化简后上面这个公式样子够好看了吧？ 
 
@@ -76,38 +79,45 @@ step5
 
 > PS:写完代码后，用极大的n值测试一下，事实上$$ \sum\limits_{k=1}^{n} {f(k)} $$已经超出了int64的范围。其他的细节不必多说了。
 
-Java:
+1.319s AC java代码：
 
 ```
-/*
- * @date 2015-05-30
+/**
+ * @date 2015-05-31
  * @author Semprathlon
  */
-import java.util.*;
 import java.math.*;
-
+import java.io.*;
+ 
 public class Main {
     static int maxn=42;
     static BigInteger[] sum=new BigInteger[maxn];
-    
+    static long[] Pow2=new long[maxn];
+    final static BigInteger TWO=BigInteger.valueOf(2);
+    final static BigInteger THREE=BigInteger.valueOf(3);
+     
     static int found_pow2(long n){
         return (int)(Math.log((double)n)/Math.log(2.0));
     }
-
+ 
     static void init(){
         for(int i=0;i<maxn;i++)
-            sum[i]=new BigInteger("3").pow(i).add(new BigInteger("2"));
+        {
+            sum[i]=THREE.pow(i);
+            Pow2[i]=1L<<i;
+        }
+             
     }
     static BigInteger Bisearch(long l,long r,BigInteger ls,BigInteger rs,long key){
         while(l+1L<r){
-            long mid=(l+r)>>1L;
+            long mid=(l+r)>>1;
             if(key<mid){
                 r=mid;
-                rs=ls.add(rs.subtract(ls).divide(new BigInteger("3")));
+                rs=ls.add(rs.subtract(ls).divide(THREE));
             }
             else{
                 l=mid;
-                ls=ls.add(rs.subtract(ls).divide(new BigInteger("3")));
+                ls=ls.add(rs.subtract(ls).divide(THREE));
             }
         }
         return ls;
@@ -118,17 +128,22 @@ public class Main {
         int k=found_pow2(n+1);
         BigInteger ls=sum[k];
         BigInteger rs=sum[k+1];
-        return Bisearch(1L<<k,1L<<(k+1),ls,rs,n+1).subtract(BigInteger.valueOf(2));
+        return Bisearch(Pow2[k],Pow2[k+1],ls,rs,n+1);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         init();
-        Scanner scan=new Scanner(System.in);
-        while(scan.hasNextLong()){
-            long n=scan.nextLong();
-            long m=scan.nextLong();
+        StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+    PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+        long n=0,m=0;
+        while(in.nextToken() != StreamTokenizer.TT_EOF){
+            n=(long)in.nval;
+            in.nextToken();
+            m=(long)in.nval;
             if (n==0L&&m==0L) break;
-            System.out.println(solve(m).subtract(solve(n-1)));
+            out.println(solve(m).subtract(solve(n-1)));
         }
+        out.flush();
+        out.close();
     }
 }
 ```
@@ -140,9 +155,9 @@ public class Main {
 #include<cstdio>
 #include<cstring>
 #include<iostream>
-
+ 
 using namespace std;
-
+ 
 typedef long long LL;
 typedef unsigned long long ULL;
 const int maxn = 42;
@@ -271,7 +286,7 @@ struct LongInt
         }
     }
 };
-
+ 
 const LL pow2[maxn] = {1, 2, 4, 8, 16, 32, 64, 128,
                        256, 512, 1024, 2048, 4096, 8192, 16384, 32768,
                        65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608,
@@ -279,20 +294,13 @@ const LL pow2[maxn] = {1, 2, 4, 8, 16, 32, 64, 128,
                        4294967296, 8589934592, 17179869184, 34359738368, 68719476736, 137438953472, 274877906944, 549755813888,
                        1099511627776, 2199023255552
                       };
-/*const ULL sum[maxn] = {3, 5, 11, 29, 83, 245, 731, 2189,
-                       6563, 19685, 59051, 177149, 531443, 1594325, 4782971, 14348909,
-                       43046723, 129140165, 387420491, 1162261469, 3486784403, 10460353205, 31381059611, 94143178829,
-                       282429536483, 847288609445, 2541865828331, 7625597484989, 22876792454963, 68630377364885, 205891132094651, 617673396283949,
-                       1853020188851843, 5559060566555525, 16677181699666571, 50031545098999709, 150094635296999123, 450283905890997365, 1350851717672992091, 4052555153018976269,
-                       12157665459056928803
-                      };*/
 LongInt sum[maxn];
-
+ 
 int found_pow2(ULL n)
 {
     return int(log(n) / log(2));
 }
-
+ 
 LongInt Bisearch(LL l, LL r, LongInt ls, LongInt rs, LL key) // [ l , r ) 
 {
     while (l + 1 < r)
@@ -311,7 +319,7 @@ LongInt Bisearch(LL l, LL r, LongInt ls, LongInt rs, LL key) // [ l , r )
     }
     return ls;
 }
-
+ 
 LongInt solve(LL n)
 {
     if (n < 0)
@@ -325,19 +333,19 @@ LongInt solve(LL n)
     int k = found_pow2(n + 1);
     LongInt ls = sum[k];
     LongInt rs = sum[k + 1];
-    return Bisearch(pow2[k], pow2[k + 1], ls, rs, n + 1) - 2;
+    return Bisearch(pow2[k], pow2[k + 1], ls, rs, n + 1);
 }
-
+ 
 void init()
 {
     LongInt tmp = 1;
     for (int i = 0; i < maxn; i++)
     {
-        sum[i] = tmp + 2;
+        sum[i] = tmp;
         tmp *= 3;
     }
 }
-
+ 
 int main()
 {
     init();
