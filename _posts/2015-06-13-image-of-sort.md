@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[直观学习排序算法] 视觉直观感受若干常用排序算法 "
+title: "[直观学习排序算法] 视觉直观感受若干常用排序算法(转) "
 date: 2015-06-13 10:07:00
 tag: 
 categories: 算法
@@ -9,6 +9,7 @@ categories: 算法
 * content
 {:toc}
 
+原文地址：[http://www.blogjava.net/todayx-org/archive/2012/01/08/368091.html](http://www.blogjava.net/todayx-org/archive/2012/01/08/368091.html)
 ## 1 快速排序
 介绍：
 
