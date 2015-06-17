@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "我的C/C++学习经历"
-date: 2015-04-29 21:15:00
+date: 2015-05-29 21:15:00
 tag: 
 - cpp
-categories: 编程语言
+categories: [编程语言, 编程导论]
 ---
 * content
 {:toc}
