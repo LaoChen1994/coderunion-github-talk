@@ -1,11 +1,11 @@
-
-# 新人报道贴
 > 整个 issue 列表相当于一个论坛了吧，我们用 issue 来耍。coder 的 geeker 风论坛。
+
+## 新人报道贴
 
 https://github.com/CoderUnion/coderunion-github-talk/issues/51
 
 ### coderunion 的创立初衷
-#54 
+https://github.com/CoderUnion/coderunion-github-talk/issues/54
 
 #### 使用 github 的好处
 详细内容见：
