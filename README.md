@@ -6,8 +6,6 @@
 
 https://github.com/CoderUnion/coderunion-github-talk/issues/51
 
-### coderunion 的创立初衷
-https://github.com/CoderUnion/coderunion-github-talk/issues/54
 
 #### 使用 github 的好处
 详细内容见：
