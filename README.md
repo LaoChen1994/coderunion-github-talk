@@ -8,8 +8,7 @@ https://github.com/CoderUnion/coderunion-github-talk/issues/51
 
 
 #### 使用 github 的好处
-详细内容见：
-http://git.io/vnfi6
+http://simplyy.space/article/56c2d71f6ba384e02299f9a1
 
 1. 以及 qq 群真的不是知识分享的地方，因为知识留不住。只适合实时交流，比如水群水技术等
 2. 真正能使大家变厉害的是社区，好的博文，而不是水。
