@@ -1,6 +1,6 @@
 # coderunion-github-talk
 
-> 整个 issue 列表相当于一个论坛了吧，我们用 issue 来耍。coder 的 geeker 风论坛。
+
 
 ## 新人报道贴
 
@@ -16,7 +16,7 @@ http://git.io/vnfi6
 3. github 是一个非常棒非常棒的社区，能让编程的水平飞升。
 
 ### 编程资料搜集贴
-> 在这里尽情学习吧
+
 
 
 https://github.com/CoderUnion/coderunion-github-talk/issues/39
